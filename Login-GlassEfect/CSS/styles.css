@@ -290,7 +290,55 @@ button:hover{
         width: 80%;
     }  
 }
-@media(max-width: 572px)
+@media(max-width: 600px)
 {
     /* Pendiente de Revision, para dar por terminado */
+    section .Color:nth-child(1)
+    {
+        height: 35%;
+        width: 100%;
+    }
+    section .Color:nth-child(2)
+    {
+        height: 40%;
+        width: 40%;
+    }
+    section .Color:nth-child(3)
+    {
+        height: 30%;
+        width: 50%;
+    }
+    .box .efect:nth-child(1),.efect:nth-child(3),.efect:nth-child(4)
+    {
+        display: none;
+    }
+}
+@media(max-width: 400px)
+{
+    .form-group input
+    {
+        font-size: 12px;
+    }
+    .form-group:nth-child(4)
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    button
+    {
+        width: 80%;
+    }
+    button a
+    {
+        font-size: 12px;
+    }
+    .form-group:nth-child(3)
+    {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+    .form-group input[type=submit]
+    {
+        font-size: 14px;
+    }
 }
